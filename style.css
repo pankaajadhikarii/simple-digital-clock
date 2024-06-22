@@ -1,0 +1,25 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    width: 448px;
+    border: 4px solid black;
+    border-radius: 15px;
+    letter-spacing: 5px;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
